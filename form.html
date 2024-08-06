@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <ul>
+        <li><a href="introducao.html">Página Principal</a></li>
+        <li><a href="tabela.html">Tabelas</a></li>
+    </ul>
+
+    <h2 text-align="center">Usuários</h2>
+
+    <form action="" method="post">
+        <p>Nome: <input type="text" placeholder="coloque seu nome" name="nome"></p>
+        <p>Telefone: <input type="text" name="telefone" placeholder="coloque seu telefone"></p>
+        <p>Email: <input type="text" name="email" placeholder="coloque seu email"></p>
+        <p>Senha: <input type="password" name="Senha" maxlength="10" placeholder="coloque sua senha"/>
+            (A senha deve ter no máximo 10 caracteres)
+        <p>Sexo:
+            <input type="radio" name="sexo" value="1">Masculino
+            <input type="radio" name="sexo" value="2">Feminino
+            <input type="radio" name="sexo" value="3">Outros
+        </p>
+        <p>UF: 
+            <select>
+                <option value=""></option>
+                <option value="">AC</option>
+                <option value="">AL</option>
+                <option value="">AP</option>
+                <option value="">AM</option>
+                <option value="">BA</option>
+                <option value="">CE</option>
+                <option value="">DF</option>
+                <option value="">ES</option>
+                <option value="">GO</option>
+                <option value="">MA</option>
+                <option value="">MT</option>
+                <option value="">MS</option>
+                <option value="">MG</option>
+                <option value="">PA</option>
+                <option value="">PB</option>
+                <option value="">PR</option>
+                <option value="">PE</option>
+                <option value="">PI</option>
+                <option value="">RJ</option>
+                <option value="">RN</option>
+                <option value="">RS</option>
+                <option value="">RO</option>
+                <option value="">RR</option>
+                <option value="">SC</option>
+                <option value="">SP</option>
+                <option value="">SE</option>
+                <option value="">TO</option>
+            </select>
+        </p>
+
+        <P>Cidade:
+            <select>
+                <option value=""></option>
+                <option value="">Rondônia</option>
+                <option value="">Acre</option>
+                <option value="">Amazonas</option>
+                <option value="">Roraima</option>
+                <option value="">Pará</option>
+                <option value="">Amapá</option>
+                <option value="">Tocantins</option>
+                <option value="">Maranhão</option>
+                <option value="">Piauí</option>
+                <option value="">Ceará</option>
+                <option value="">Rio Grande do Norte</option>
+                <option value="">Paraíba</option>
+                <option value="">Pernambuco</option>
+                <option value="">Alagoas</option>
+                <option value="">Sergipe</option>
+                <option value="">Bahia</option>
+                <option value="">Minas Gerais</option>
+                <option value="">Espírito Santo</option>
+                <option value="">Rio de Janeiro</option>
+                <option value="">São Paulo </option>
+                <option value="">Paraná</option>
+                <option value="">Santa Catarina</option>
+                <option value="">Rio Grande do Sul</option>
+                <option value="">Mato Grosso do Sul</option>
+                <option value="">Mato Grosso</option>
+                <option value="">Goiás</option>
+                <option value="">Distrito Federal</option>
+            </select>
+        </P>
+
+        <fieldset>
+            <legend>Hobbies</legend>
+            <input type="checkbox" id="musica" name="hobbies" value="Musica">
+            <label for="musica">Música</label><br>
+            <input type="checkbox" id="futebol" name="hobbies" value="Futebol">
+            <label for="futebol">Futebol</label><br>
+            <input type="checkbox" id="artes" name="hobbies" value="Artes">
+            <label for="artes">Artes</label><br>
+            <input type="checkbox" id="jogos" name="hobbies" value="Jogos">
+            <label for="jogos">Jogos</label><br>
+            <input type="checkbox" id="cozinhar" name="hobbies" value="Cozinhar">
+            <label for="cozinhar">Cozinhar</label><br>
+        </fieldset><br>
+
+        <label for="observacao">Observação:</label>
+        <textarea id="observacao" name="observacao" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Salvar</button>
+        <button type="reset">Limpar</button>
+        <button type="button" onclick="history.back()">Voltar</button>
+
+    </form>
+
+    
+</body>
+</html>
