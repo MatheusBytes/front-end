@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,24 +15,27 @@
     <h2 text-align="center">Usuários</h2>
 
     <form action="" method="post">
-        <p>Nome: <input type="text" placeholder="coloque seu nome" name="nome"></p>
-        <p>Telefone: <input type="text" name="telefone" placeholder="coloque seu telefone"></p>
-        <p>Email: <input type="text" name="email" placeholder="coloque seu email"></p>
-        <p>Senha: <input type="password" name="Senha" maxlength="10" placeholder="coloque sua senha"/>
+        <label for="nome">Nome: <input type="text" placeholder="coloque seu nome" name="nome"></label> <br>
+        <label for="telefone">Telefone: <input type="text" name="telefone" placeholder="coloque seu telefone"></label> <br>
+        <label for="email">Email: <input type="text" name="email" placeholder="coloque seu email"></label> <br> 
+        <label for="senha">Senha: <input type="password" name="senha" maxlength="10" placeholder="coloque sua senha"/> <br>
             (A senha deve ter no máximo 10 caracteres)
-        <p>Sexo:
+        <div>Sexo:
             <input type="radio" name="sexo" value="1">Masculino
             <input type="radio" name="sexo" value="2">Feminino
             <input type="radio" name="sexo" value="3">Outros
-        </p>
-        <p>UF: 
+        </div>
+        <div>UF: 
             <select>
-                <option value=""></option>
+                <option value="">Selecione</option>
                 <option value="">AC</option>
                 <option value="">AL</option>
                 <option value="">AP</option>
                 <option value="">AM</option>
-                <option value="">BA</option>
+                <option value
+                
+                
+                ="">BA</option>
                 <option value="">CE</option>
                 <option value="">DF</option>
                 <option value="">ES</option>
@@ -55,11 +59,13 @@
                 <option value="">SE</option>
                 <option value="">TO</option>
             </select>
-        </p>
+        </div>
 
-        <P>Cidade:
+        <div>Cidade:
             <select>
-                <option value=""></option>
+                <option value="">Selecione
+
+                </option>
                 <option value="">Rondônia</option>
                 <option value="">Acre</option>
                 <option value="">Amazonas</option>
@@ -88,19 +94,19 @@
                 <option value="">Goiás</option>
                 <option value="">Distrito Federal</option>
             </select>
-        </P>
+        </div>
 
         <fieldset>
             <legend>Hobbies</legend>
-            <input type="checkbox" id="musica" name="hobbies" value="Musica">
+            <input type="checkbox" id="musica" name="hobbies[]" value="Musica">
             <label for="musica">Música</label><br>
-            <input type="checkbox" id="futebol" name="hobbies" value="Futebol">
+            <input type="checkbox" id="futebol" name="hobbies[]" value="Futebol">
             <label for="futebol">Futebol</label><br>
-            <input type="checkbox" id="artes" name="hobbies" value="Artes">
+            <input type="checkbox" id="artes" name="hobbies[]" value="Artes">
             <label for="artes">Artes</label><br>
-            <input type="checkbox" id="jogos" name="hobbies" value="Jogos">
+            <input type="checkbox" id="jogos" name="hobbies[]" value="Jogos">
             <label for="jogos">Jogos</label><br>
-            <input type="checkbox" id="cozinhar" name="hobbies" value="Cozinhar">
+            <input type="checkbox" id="cozinhar" name="hobbies[]" value="Cozinhar">
             <label for="cozinhar">Cozinhar</label><br>
         </fieldset><br>
 
