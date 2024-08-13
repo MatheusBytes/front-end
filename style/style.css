@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: red;
+    background-color: rgb(69, 221, 102);
+    border-style: groove;
+}
+
+p{
+    text-indent: 50px;
+
+}
+
+.destaque{
+    color:blueviolet;
+    
+}
+
+#principal{
+    color:black;
+    border: 12px solid 1px;
+    margin:30px;
+    padding: 20px;
+}
